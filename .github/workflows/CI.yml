@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 env:
     CARGO_TERM_COLOR: always
-    TRUNK_VERSION: "v0.16.0"
+    TRUNK_VERSION: "v0.21.0"
 
 jobs:
     build_test:
