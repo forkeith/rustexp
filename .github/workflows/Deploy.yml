@@ -33,7 +33,7 @@ jobs:
         run: wget -qO- https://github.com/thedodd/trunk/releases/download/${TRUNK_VERSION}/trunk-x86_64-unknown-linux-gnu.tar.gz | tar -xzf-
 
       - name: Build site
-        run: ./trunk build --release
+        run: ./trunk build --release --public-url /rustexp/
 
       - name: Finalize dist directory
         run: |
